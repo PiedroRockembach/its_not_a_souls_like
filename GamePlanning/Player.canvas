@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"a4679a9e13373dc6","x":-160,"y":-180,"width":250,"height":64,"type":"text","text":"IDLE"},
+		{"id":"98d5e2848ec3be5a","x":-160,"y":20,"width":250,"height":60,"type":"text","text":"jump"},
+		{"id":"c6fc12651ca7bf02","x":-500,"y":20,"width":250,"height":60,"type":"text","text":"Run"},
+		{"id":"6704a2a7db8605c6","x":200,"y":20,"width":250,"height":60,"type":"text","text":"Roll"},
+		{"id":"2a559ea902ed58e2","x":-100,"y":-440,"width":250,"height":60,"type":"text","text":"STATE MACHINE"}
+	],
+	"edges":[
+		{"id":"189768fc46464223","fromNode":"a4679a9e13373dc6","fromSide":"bottom","toNode":"98d5e2848ec3be5a","toSide":"top"},
+		{"id":"700eba34abae0881","fromNode":"a4679a9e13373dc6","fromSide":"right","toNode":"6704a2a7db8605c6","toSide":"top"},
+		{"id":"67d7c034a511d424","fromNode":"a4679a9e13373dc6","fromSide":"left","toNode":"c6fc12651ca7bf02","toSide":"top"},
+		{"id":"c48818824b6b2c44","fromNode":"c6fc12651ca7bf02","fromSide":"right","toNode":"a4679a9e13373dc6","toSide":"left"},
+		{"id":"4aca8242ca74fd5f","fromNode":"98d5e2848ec3be5a","fromSide":"right","toNode":"a4679a9e13373dc6","toSide":"bottom"},
+		{"id":"7e155fefcb01f6ae","fromNode":"98d5e2848ec3be5a","fromSide":"left","toNode":"c6fc12651ca7bf02","toSide":"right"},
+		{"id":"41993c51e23e443e","fromNode":"6704a2a7db8605c6","fromSide":"bottom","toNode":"c6fc12651ca7bf02","toSide":"bottom"},
+		{"id":"331e5e3e437a3809","fromNode":"6704a2a7db8605c6","fromSide":"top","toNode":"a4679a9e13373dc6","toSide":"right"},
+		{"id":"f5fc19d00ec9e717","fromNode":"6704a2a7db8605c6","fromSide":"left","toNode":"98d5e2848ec3be5a","toSide":"right"}
+	]
+}

@@ -1,16 +1,19 @@
 using UnityEngine;
 
-public class State : MonoBehaviour
+public abstract class State: MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    protected MonoBehaviour parent;
+    protected bool ended;
+    protected State nextState;
+    public State(MonoBehaviour parent)
     {
-        
+        this.parent = parent;
     }
+    public State GetNextState() => nextState;
+    public bool isEnded() => ended;
+    public abstract void StateUpdate();
+    public abstract void StateFixedUpdate();
+    public abstract void Enter();
+    public abstract void Exit();
 }

@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"883654dd776762a5","x":-440,"y":-482,"width":1720,"height":1202,"type":"group","label":"Units"},
+		{"id":"b3a4a5a09fd565d5","type":"file","file":"Player.canvas","x":-280,"y":-120,"width":400,"height":400},
+		{"id":"72b880586cbf2f3c","type":"text","text":"Atributos\n\nvida\nestamina\nforça\nagilidade\n","x":280,"y":-440,"width":340,"height":240},
+		{"id":"d8d2abe6714f3024","x":800,"y":-120,"width":400,"height":400,"type":"file","file":"Enemy.canvas"},
+		{"id":"765dff36b99b3d3c","x":280,"y":400,"width":340,"height":200,"type":"text","text":"Inventario\n"}
+	],
+	"edges":[
+		{"id":"ee2e05f09e327ddc","fromNode":"72b880586cbf2f3c","fromSide":"left","toNode":"b3a4a5a09fd565d5","toSide":"top"},
+		{"id":"161b7dacbcd3d0ac","fromNode":"72b880586cbf2f3c","fromSide":"right","toNode":"d8d2abe6714f3024","toSide":"top"}
+	]
+}
